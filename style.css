@@ -1,0 +1,77 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: dimgray;
+    background-blend-mode: soft-light;
+    opacity: 0.9;
+    width: 100%;
+    height: 60px;
+    display: inline;    
+}
+
+.navbar ul {
+    list-style-type: none;    
+}
+
+.btn {
+    border-radius: 0.4em;    
+}
+
+.btn-green {
+    background-color: green;
+    border-color: lightgreen;
+}
+
+#btn-run {
+    position: fixed;
+    top: 30px;
+    right: 15px;
+}
+
+#ctrl-btn li {
+    display: inline-block;
+}
+
+#ctrl-btn {
+    position: fixed;
+    top: 20px;
+    left: 600px;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    width: 700px;
+}
+
+.code-container {
+    position: fixed;
+    top: 40px;
+    left: 5px;
+}
+
+.code-container h3 {
+    margin-left: 650px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+#output-wrapper {
+    position: fixed;
+    top: 40px;
+    right: 5px;
+}
+
+#output-wrapper h3 {
+    margin-left: 760px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+#result {
+    border: solid 1px black;
+    width: 830px;
+    height: 1000px;
+}
